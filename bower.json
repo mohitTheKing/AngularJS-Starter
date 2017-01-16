@@ -1,0 +1,22 @@
+{
+  "name": "angularstarter",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Mohit Anchan"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "angular": "angularjs#^1.6.1",
+    "angular-route": "^1.6.1"
+  }
+}
