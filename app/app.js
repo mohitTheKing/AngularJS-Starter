@@ -1,7 +1,7 @@
 
 
 var app = angular.module('MyApp', [
-	// 'ngRoute',
+	'ngRoute',
 	'HomeController'
 	]);
 

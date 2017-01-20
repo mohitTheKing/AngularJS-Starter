@@ -7,9 +7,6 @@ var config = {
     }
 }
 
-
-
-
 var gulp = require('gulp'),
     connect = require('gulp-connect'),
     seq = require('run-sequence'),
@@ -20,9 +17,9 @@ var gulp = require('gulp'),
  ==========================================*/
 gulp.task('serve', function() {
     connect.server({
-      root: 'RaxETest',
+      root: '.',
       port: 8090,
-      fallback: 'index.html',
+      //fallback: 'index.html',
 	    livereload: true
     });
 });
